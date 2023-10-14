@@ -92,6 +92,24 @@ color: orange;
   color: white;
 }
 /* media queries*/
-.icon-footer:hover{
-  cursor: pointer;
+@media screen and (max-width:500px) {
+  /* html,body{
+      font-size: 50%;
+  } */
+  .navbar{
+    font-size: 90%;
+  }
+ .container{
+  padding: 0px 20px;
+  font-size: 70%;
+ }
+ .container-fluid h5{
+  font-size: 70%;
+ }
+ .form-section{
+  width: 80%;
+}
+footer {
+  font-size: 20%;
+}
 }
